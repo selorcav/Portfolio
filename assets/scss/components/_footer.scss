@@ -1,0 +1,37 @@
+/*FOOTER*/
+footer{
+	text-align: center;
+	background: rgb(42,36,150);
+	background: -webkit-linear-gradient(left, rgba(42,36,150,1) 0%, rgba(0,212,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(42,36,150,1) 0%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(to right, rgba(42,36,150,1) 0%, rgba(0,212,255,1) 100%);
+	width: 100%;
+	position: relative;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 10vh	
+}
+footer h3{
+	font-size: 30px;
+	padding: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+footer i{
+	color: white;
+}
+.fab {
+	font-size: 40px;
+	padding: 10px 15px;
+	transition: 1s;
+}
+.ex1 i:hover {
+  -moz-transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -o-transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+

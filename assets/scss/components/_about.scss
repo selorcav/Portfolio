@@ -1,0 +1,51 @@
+/*ABOUT*/
+#about{
+	min-height: 100vh;
+	padding: 80px 20px 0 20px;
+	background-size: cover;
+}
+#about p{
+	font-family: 'Open Sans', sans-serif;
+	color: #717171;
+	font-size: 15px;
+	margin: auto;
+	padding-top: 20px;
+	transition: .5s;
+	padding-bottom: 20px;
+}
+.right{
+	float: right;
+}
+.about-title{
+	display: inline-block;
+	background: #5ea9d8;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 2vw;
+}
+.about-info{
+	margin-left: 2vw;
+
+}
+.about-photo{
+	height: 80vh;
+	overflow: hidden;
+	align-items: center;
+	border-radius: 10px;
+	padding: 0;
+}
+.about-photo img{
+	width: 100%;
+}
+/*Mediaqueries*/
+@media screen and (max-width: 991px){
+	#about{
+		display: block;
+	}
+	#about p{
+		font-size: 14px;
+		width: 80%;
+	}
+}
